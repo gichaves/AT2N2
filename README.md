@@ -1,21 +1,30 @@
 # AT2N2
-Trabalho de estrutura de dados sobre o jogo do grupo: "jogo de adivinhação"
+# Jogo de Adivinhação de Cartas
 
-O jogo é um desafio de adivinhação de cartas.
+Projeto desenvolvido para a disciplina de **Estrutura de Dados**
 
-O jogador deve informar seu nome, o baralho é "embaralhado" e em cada uma das 5 rodadas do código, uma carta é sorteada, e o jogador deve adivinhar o valor da carta de 1 a 13 
-se você acertar, você ganha o ponto, porém se errar, não ganha, respectivamente, no final a pontuação é mostrada em um placar
-para você poder jogar, você tem que ir ao VSCODE na parte superior do programa,escolher as seguintes opções:
 
-Terminal > New Terminal
+## Sobre o Jogo
 
-logo,você abrirá a terminal, e você poderá compilar, com o seguinte código:
+O jogo é um desafio onde o jogador tenta adivinhar o valor de cartas sorteadas aleatoriamente de um baralho.
 
-"Gcc jogo.c -o jogo" (sem as aspas)
-e para rodar o jogo:
+### Regras:
+- O jogador informa seu **nome** no início.
+- O baralho é **embaralhado automaticamente**.
+- O jogo tem **5 rodadas**.
+- Em cada rodada, uma carta é sorteada e o jogador tenta adivinhar o **valor da carta** (de 1 a 13).
+- A cada acerto, o jogador **ganha 1 ponto**.
+- Ao final, o **placar final** é exibido.
 
-./jogo.exe
+## Como Executar
 
-em termos mais técnicos, as funções principais deste código são "sortear carta()"
-pois sorteia ou remove uma carta aleatória do baralho
-o "Main()" no qual faz a exibição do menu e controla o fluxo do programa, entre outras
+1. Abra o projeto no **Visual Studio Code**.
+2. Vá até:  
+   `Terminal > New Terminal`
+3. Compile o jogo com o seguinte comando:
+   ```bash
+   gcc jogo_adivinhacao.c -o jogo
+4. Execute com:
+   ./jogo.exe
+
+
