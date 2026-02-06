@@ -1,4 +1,4 @@
-# AT2N2
+# Jogo de Adivinhação
 Trabalho de estrutura de dados sobre o jogo do grupo: "jogo de adivinhação"
 
 O jogo é um desafio de adivinhação de cartas.
